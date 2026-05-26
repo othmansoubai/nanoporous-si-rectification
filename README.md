@@ -78,7 +78,7 @@ skips any sweep whose `summary.csv` already exists.
 ## Data flow
 
 The simulation pipeline is fully self-contained — no external phonon
-database, DFT input, or AlmaBTE/OpenBTE dependency is required.
+database or DFT input is required.
 
 ```
 Parameters (xc, R/Lx, alpha, p_spec, Nx, Ny, Nd)
