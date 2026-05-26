@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "Nonlinear gray phonon-BTE solver for thermal rectification in asymmetric nanoporous silicon"
+message: "If you use this software, please cite the associated journal article (below) and this repository."
+type: software
+authors:
+  - family-names: Abouelhanoune
+    given-names: Younes
+    affiliation: "LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi University, Morocco"
+  - family-names: Soubai
+    given-names: Othman
+    affiliation: "LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi University, Morocco"
+  - family-names: Taibi
+    given-names: Mohammed
+    affiliation: "LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi University, Morocco"
+license: MIT
+keywords:
+  - phonon transport
+  - Boltzmann transport equation
+  - thermal rectification
+  - nanoporous silicon
+  - specularity
+  - thermal management
+preferred-citation:
+  type: article
+  title: "Pore-Wall Specularity Suppresses Thermal Rectification in Asymmetric Nanoporous Silicon: A Nonlinear Gray Phonon-BTE Study"
+  authors:
+    - family-names: Abouelhanoune
+      given-names: Younes
+    - family-names: Soubai
+      given-names: Othman
+    - family-names: Taibi
+      given-names: Mohammed
+  journal: "International Journal of Thermal Sciences"
+  year: 2026
+  doi: ""   # add the DOI once the article is published
