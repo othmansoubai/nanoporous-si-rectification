@@ -1,12 +1,13 @@
 # Pore-Wall Specularity Suppresses Thermal Rectification in Asymmetric Nanoporous Silicon
 
 This repository contains the simulation code, post-processing scripts, and full
-reproduction pipeline for the manuscript:
+reproduction pipeline for the article:
 
-> **Pore-Wall Specularity Suppresses Thermal Rectification in Asymmetric
-> Nanoporous Silicon: A Nonlinear Gray Phonon-BTE Study**
-> Y. Abouelhanoune, O. Soubai, and M. Taibi
-> *International Journal of Thermal Sciences* (under review).
+> **Pore-wall specularity suppresses thermal rectification in asymmetric
+> nanoporous silicon: A nonlinear gray phonon-BTE study**
+> O. Soubai, Y. Abouelhanoune, and M. Taibi
+> *International Journal of Thermal Sciences*, vol. 229, 111084, 2026.
+> https://doi.org/10.1016/j.ijthermalsci.2026.111084
 
 A nonlinear gray phonon-Boltzmann transport equation (BTE) solver in two
 dimensions, with a mixed diffuse-specular pore-wall boundary condition
@@ -19,7 +20,7 @@ ranking of favorable designs preserved.
 ## What this repository does
 
 Running a single command reproduces every simulation, every figure, and every
-validation table in the manuscript:
+validation table in the article:
 
 ```bash
 python reproduce_paper.py
@@ -27,7 +28,7 @@ python reproduce_paper.py
 
 That command runs four stages: simulations (Stage 1), CSV aggregation
 (Stage 2), publication figures (Stage 3), and the two validation analyses
-that produce Tables 4 and 5 of the manuscript (Stage 4).
+that produce Tables 4 and 5 of the article (Stage 4).
 
 ## Repository layout
 
@@ -61,7 +62,7 @@ that produce Tables 4 and 5 of the manuscript (Stage 4).
 
 ```bash
 # Clone and install
-git clone https://github.com/<your-username>/nanoporous-si-rectification.git
+git clone https://github.com/othmansoubai/nanoporous-si-rectification.git
 cd nanoporous-si-rectification
 pip install -r requirements.txt
 
@@ -117,7 +118,7 @@ set; there is no external data input.
 - Periodic boundaries in the transverse (`y`) direction (i.e., the model
   represents an idealized infinite transverse repetition of the unit cell).
 
-See Section 2 of the manuscript for the full formulation.
+See Section 2 of the article for the full formulation.
 
 ## Reproducing individual results
 
@@ -174,9 +175,31 @@ Pinned versions are in `requirements.txt`.
 
 ## Citation
 
-If you use this code in your research, please cite the manuscript above and
-this repository. The `CITATION.cff` file contains a machine-readable
-citation that GitHub will render in the sidebar.
+If you use this code, please cite the article:
+
+> O. Soubai, Y. Abouelhanoune, and M. Taibi,
+> "Pore-wall specularity suppresses thermal rectification in asymmetric
+> nanoporous silicon: A nonlinear gray phonon-BTE study,"
+> *International Journal of Thermal Sciences*, vol. 229, 111084, 2026.
+> https://doi.org/10.1016/j.ijthermalsci.2026.111084
+
+BibTeX:
+
+```bibtex
+@article{soubai2026porewall,
+  title   = {Pore-wall specularity suppresses thermal rectification in asymmetric nanoporous silicon: A nonlinear gray phonon-BTE study},
+  author  = {Soubai, Othman and Abouelhanoune, Younes and Taibi, Mohammed},
+  journal = {International Journal of Thermal Sciences},
+  volume  = {229},
+  pages   = {111084},
+  year    = {2026},
+  issn    = {1290-0729},
+  doi     = {10.1016/j.ijthermalsci.2026.111084}
+}
+```
+
+The code is also permanently archived on Zenodo:
+https://doi.org/10.5281/zenodo.20429084
 
 ## License
 
@@ -184,9 +207,9 @@ MIT. See `LICENSE`.
 
 ## Authors
 
-- **Younes Abouelhanoune** (corresponding author) — ENSAH Al-Hoceima,
-  Abdelmalek Essaadi University, Morocco.
-- **Othman Soubai** — LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi
-  University, Morocco.
-- **Mohammed Taibi** — LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi
-  University, Morocco.
+- **Othman Soubai** — DMS, LSA Laboratory, ENSA Al-Hoceima, Abdelmalek
+  Essaadi University, Tetouan, Morocco.
+- **Younes Abouelhanoune** (corresponding author) — DMS, LSA Laboratory,
+  ENSA Al-Hoceima, Abdelmalek Essaadi University, Tetouan, Morocco.
+- **Mohammed Taibi** — DMS, LSA Laboratory, ENSA Al-Hoceima, Abdelmalek
+  Essaadi University, Tetouan, Morocco.
