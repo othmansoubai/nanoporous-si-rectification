@@ -3,15 +3,15 @@ title: "Nonlinear gray phonon-BTE solver for thermal rectification in asymmetric
 message: "If you use this software, please cite the associated journal article (below) and this repository."
 type: software
 authors:
-  - family-names: Abouelhanoune
-    given-names: Younes
-    affiliation: "LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi University, Morocco"
   - family-names: Soubai
     given-names: Othman
-    affiliation: "LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi University, Morocco"
+    affiliation: "DMS, LSA Laboratory, ENSA Al-Hoceima, Abdelmalek Essaadi University, Tetouan, Morocco"
+  - family-names: Abouelhanoune
+    given-names: Younes
+    affiliation: "DMS, LSA Laboratory, ENSA Al-Hoceima, Abdelmalek Essaadi University, Tetouan, Morocco"
   - family-names: Taibi
     given-names: Mohammed
-    affiliation: "LSA-EMAO, ENSAH Al-Hoceima, Abdelmalek Essaadi University, Morocco"
+    affiliation: "DMS, LSA Laboratory, ENSA Al-Hoceima, Abdelmalek Essaadi University, Tetouan, Morocco"
 license: MIT
 keywords:
   - phonon transport
@@ -22,14 +22,17 @@ keywords:
   - thermal management
 preferred-citation:
   type: article
-  title: "Pore-Wall Specularity Suppresses Thermal Rectification in Asymmetric Nanoporous Silicon: A Nonlinear Gray Phonon-BTE Study"
+  title: "Pore-wall specularity suppresses thermal rectification in asymmetric nanoporous silicon: A nonlinear gray phonon-BTE study"
   authors:
-    - family-names: Abouelhanoune
-      given-names: Younes
     - family-names: Soubai
       given-names: Othman
+    - family-names: Abouelhanoune
+      given-names: Younes
     - family-names: Taibi
       given-names: Mohammed
   journal: "International Journal of Thermal Sciences"
+  volume: 229
+  start: 111084
   year: 2026
-  doi: ""   
+  issn: "1290-0729"
+  doi: "10.1016/j.ijthermalsci.2026.111084"
